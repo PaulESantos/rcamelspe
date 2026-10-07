@@ -7,8 +7,7 @@
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![CRAN
-status](https://www.r-pkg.org/badges/version/rcamelspe)](https://CRAN.R-project.org/package=rcamelspe)
+<!-- [![CRAN status](https://www.r-pkg.org/badges/version/rcamelspe)](https://CRAN.R-project.org/package=rcamelspe) -->
 <!-- badges: end -->
 
 The goal of `rcamelspe` is to provide an ultra-fast, computationally

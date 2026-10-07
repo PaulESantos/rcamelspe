@@ -230,7 +230,7 @@ No se afirma un ahorro porcentual de memoria sin medirlo a nivel del proceso.
    Se excluyen instalación, calentamiento, validación y generación del informe.
 
 Referencia: `RCamelsPE` 1.0.1, revisión
-[`r substr(commit, 1, 12)`](`r paste0('https://github.com/hllauca/RCamelsPE/tree/', commit)`).
+[`40af1422d2b9`](https://github.com/hllauca/RCamelsPE/tree/40af1422d2b9893973ffae7f4678136860f09c52).
 La versión local es `rcamelspe` 0.1.0 con las mejoras del repositorio;
 `code-manifest.csv` registra hashes del código utilizado.
 

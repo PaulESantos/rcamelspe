@@ -17,7 +17,9 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![CRAN status](https://www.r-pkg.org/badges/version/rcamelspe)](https://CRAN.R-project.org/package=rcamelspe)
+<!-- [![CRAN status](https://www.r-pkg.org/badges/version/rcamelspe)](https://CRAN.R-project.org/package=rcamelspe) -->
+[![R-CMD-check](https://github.com/PaulESantos/rcamelspe/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/PaulESantos/rcamelspe/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/PaulESantos/rcamelspe/graph/badge.svg)](https://app.codecov.io/gh/PaulESantos/rcamelspe)
 <!-- badges: end -->
 
 The goal of `rcamelspe` is to provide an ultra-fast, computationally efficient, and user-friendly R interface to download, load, filter, and manage the **CAMELS-PE** (Catchment Attributes and Meteorology for Large-sample Studies - Peru) dataset. 
