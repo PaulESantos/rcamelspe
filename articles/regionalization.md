@@ -27,18 +27,27 @@ el manejo espacial y la visualización.
 
 ``` r
 
-library(rcamelspe)
+if (!requireNamespace("rcamelspe", quietly = TRUE)) {
+  pkg_dir <- if (file.exists("../DESCRIPTION")) ".." else if (file.exists("DESCRIPTION")) "." else NULL
+  if (!is.null(pkg_dir)) {
+    r_files <- list.files(file.path(pkg_dir, "R"), full.names = TRUE, pattern = "\\.[rR]$")
+    invisible(lapply(r_files, sys.source, envir = globalenv()))
+  }
+}
+if (requireNamespace("rcamelspe", quietly = TRUE)) {
+  library(rcamelspe)
+}
 library(ggplot2)
 library(sf)
 
 # Configurar la ruta al dataset CAMELS-PE si está disponible localmente
 # Buscamos rutas relativas comunes en el espacio de trabajo
 path <- "raw-data/CAMELS-PE"
-if (dir.exists(path)) {
+if (dir.exists(path) && exists("set_camels_pe_path", mode = "function")) {
   set_camels_pe_path(path)
-} else if (dir.exists("../raw-data/CAMELS-PE")) {
+} else if (dir.exists("../raw-data/CAMELS-PE") && exists("set_camels_pe_path", mode = "function")) {
   set_camels_pe_path("../raw-data/CAMELS-PE")
-} else if (dir.exists("../../raw-data/CAMELS-PE")) {
+} else if (dir.exists("../../raw-data/CAMELS-PE") && exists("set_camels_pe_path", mode = "function")) {
   set_camels_pe_path("../../raw-data/CAMELS-PE")
 }
 ```
@@ -59,7 +68,9 @@ y topográficas clave:
 ``` r
 
 # Verificar si el dataset está disponible antes de ejecutar
-has_data <- !is.null(get_camels_pe_path()) && dir.exists(get_camels_pe_path())
+has_data <- exists("get_camels_pe_path", mode = "function") &&
+  !is.null(get_camels_pe_path()) &&
+  dir.exists(get_camels_pe_path())
 
 if (has_data) {
   # Cargar atributos topográficos y climáticos mezclados por gauge_id

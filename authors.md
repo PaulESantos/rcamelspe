@@ -8,16 +8,16 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/pefrens/rcamelspe/blob/main/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/PaulESantos/rcamelspe/blob/main/DESCRIPTION)
 
 Santos Andrade P (2026). *rcamelspe: Catchment Attributes and
 Meteorology for Peru (CAMELS-PE)*. R package version 0.1.0,
-<https://github.com/pefrens/rcamelspe>.
+<https://github.com/PaulESantos/rcamelspe>.
 
     @Manual{,
       title = {rcamelspe: Catchment Attributes and Meteorology for Peru (CAMELS-PE)},
       author = {Paul E. {Santos Andrade}},
       year = {2026},
       note = {R package version 0.1.0},
-      url = {https://github.com/pefrens/rcamelspe},
+      url = {https://github.com/PaulESantos/rcamelspe},
     }
