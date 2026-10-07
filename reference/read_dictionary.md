@@ -32,7 +32,7 @@ read_dictionary(
 
   Character string. Optional path to the CAMELS-PE root directory. If
   not provided, retrieved automatically via
-  [`get_camels_pe_path()`](https://pefrens.github.io/rcamelspe/reference/get_camels_pe_path.md).
+  [`get_camels_pe_path()`](https://paulesantos.github.io/rcamelspe/reference/get_camels_pe_path.md).
 
 ## Value
 

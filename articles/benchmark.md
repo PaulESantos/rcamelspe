@@ -112,7 +112,7 @@ referencia a una ruta menos conveniente. Los escenarios nacionales
 fuerzan `global = TRUE` en ambos paquetes.
 
 La revisión evaluada de `RCamelsPE` no ofrece argumentos de fecha en
-[`read_timeseries()`](https://pefrens.github.io/rcamelspe/reference/read_timeseries.md).
+[`read_timeseries()`](https://paulesantos.github.io/rcamelspe/reference/read_timeseries.md).
 En el escenario anual, se añade
 [`dplyr::filter()`](https://dplyr.tidyverse.org/reference/filter.html) a
 su lectura **dentro del tiempo medido**. `rcamelspe` aplica `start_date`
@@ -218,7 +218,7 @@ a nivel del proceso.
     calentamiento, validación y generación del informe.
 
 Referencia: `RCamelsPE` 1.0.1, revisión
-[40af1422d2b9](https://github.com/hllauca/RCamelsPE/tree/40af1422d2b9893973ffae7f4678136860f09c52).
+[`40af1422d2b9`](https://github.com/hllauca/RCamelsPE/tree/40af1422d2b9893973ffae7f4678136860f09c52).
 La versión local es `rcamelspe` 0.1.0 con las mejoras del repositorio;
 `code-manifest.csv` registra hashes del código utilizado.
 

@@ -41,7 +41,7 @@ load_pe_attributes(
 
   Character string. Path to the CAMELS-PE dataset directory. If `NULL`,
   retrieved automatically via
-  [`get_camels_pe_path()`](https://pefrens.github.io/rcamelspe/reference/get_camels_pe_path.md).
+  [`get_camels_pe_path()`](https://paulesantos.github.io/rcamelspe/reference/get_camels_pe_path.md).
 
 ## Value
 

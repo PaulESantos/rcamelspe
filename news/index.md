@@ -11,10 +11,10 @@
   - Adaptive routing based on CSV size and opening-cost heuristic,
     avoiding unnecessary scans for medium-sized selections.
   - Added `start_date` and `end_date` parameters to
-    [`load_pe_timeseries()`](https://pefrens.github.io/rcamelspe/reference/load_pe_timeseries.md)
+    [`load_pe_timeseries()`](https://paulesantos.github.io/rcamelspe/reference/load_pe_timeseries.md)
     for temporal slicing at scan time.
   - Accelerated
-    [`load_pe_attributes()`](https://pefrens.github.io/rcamelspe/reference/load_pe_attributes.md)
+    [`load_pe_attributes()`](https://paulesantos.github.io/rcamelspe/reference/load_pe_attributes.md)
     by filtering target gauges prior to relational joining with
     [`collapse::join()`](https://fastverse.org/collapse/reference/join.html).
   - Preserves original data integrity when binding tables.
@@ -23,27 +23,27 @@
   - Download wrappers honor `version` and `set_path`.
 - Drop-in compatibility with `RCamelsPE`:
   - Added function aliases
-    [`read_timeseries()`](https://pefrens.github.io/rcamelspe/reference/read_timeseries.md),
-    [`read_attributes()`](https://pefrens.github.io/rcamelspe/reference/read_attributes.md),
-    [`read_metadata()`](https://pefrens.github.io/rcamelspe/reference/read_metadata.md),
-    [`read_dictionary()`](https://pefrens.github.io/rcamelspe/reference/read_dictionary.md),
-    [`read_geospatial()`](https://pefrens.github.io/rcamelspe/reference/read_geospatial.md),
-    [`download_camels_pe()`](https://pefrens.github.io/rcamelspe/reference/download_camels_pe.md),
-    [`set_camels_path()`](https://pefrens.github.io/rcamelspe/reference/set_camels_pe_path.md),
-    [`get_camels_path()`](https://pefrens.github.io/rcamelspe/reference/get_camels_pe_path.md),
-    [`plot_timeseries()`](https://pefrens.github.io/rcamelspe/reference/plot_pe_timeseries.md),
-    [`plot_catchments()`](https://pefrens.github.io/rcamelspe/reference/plot_pe_catchments.md),
+    [`read_timeseries()`](https://paulesantos.github.io/rcamelspe/reference/read_timeseries.md),
+    [`read_attributes()`](https://paulesantos.github.io/rcamelspe/reference/read_attributes.md),
+    [`read_metadata()`](https://paulesantos.github.io/rcamelspe/reference/read_metadata.md),
+    [`read_dictionary()`](https://paulesantos.github.io/rcamelspe/reference/read_dictionary.md),
+    [`read_geospatial()`](https://paulesantos.github.io/rcamelspe/reference/read_geospatial.md),
+    [`download_camels_pe()`](https://paulesantos.github.io/rcamelspe/reference/download_camels_pe.md),
+    [`set_camels_path()`](https://paulesantos.github.io/rcamelspe/reference/set_camels_pe_path.md),
+    [`get_camels_path()`](https://paulesantos.github.io/rcamelspe/reference/get_camels_pe_path.md),
+    [`plot_timeseries()`](https://paulesantos.github.io/rcamelspe/reference/plot_pe_timeseries.md),
+    [`plot_catchments()`](https://paulesantos.github.io/rcamelspe/reference/plot_pe_catchments.md),
     and
-    [`plot_attribute_map()`](https://pefrens.github.io/rcamelspe/reference/plot_pe_attribute_map.md).
+    [`plot_attribute_map()`](https://paulesantos.github.io/rcamelspe/reference/plot_pe_attribute_map.md).
 - Bundled sample dataset:
   - Added a lightweight self-contained sample dataset in
     `inst/extdata/sample_camels_pe` (~120 KB) enabling autonomous
     execution of examples and tests without requiring external internet
     downloads.
 - Added visualization utilities:
-  - [`plot_pe_timeseries()`](https://pefrens.github.io/rcamelspe/reference/plot_pe_timeseries.md)
+  - [`plot_pe_timeseries()`](https://paulesantos.github.io/rcamelspe/reference/plot_pe_timeseries.md)
     with curated color palette and faceting options.
-  - [`plot_pe_catchments()`](https://pefrens.github.io/rcamelspe/reference/plot_pe_catchments.md)
+  - [`plot_pe_catchments()`](https://paulesantos.github.io/rcamelspe/reference/plot_pe_catchments.md)
     for boundaries and gauging station spatial inspection.
-  - [`plot_pe_attribute_map()`](https://pefrens.github.io/rcamelspe/reference/plot_pe_attribute_map.md)
+  - [`plot_pe_attribute_map()`](https://paulesantos.github.io/rcamelspe/reference/plot_pe_attribute_map.md)
     for choropleth mapping of catchment attributes.

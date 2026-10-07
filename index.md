@@ -21,13 +21,13 @@ batches use
 [`dplyr::bind_rows()`](https://dplyr.tidyverse.org/reference/bind_rows.html)
 for stable output types. - **`RCamelsPE` compatibility**: convenience
 wrappers and aliases
-([`read_timeseries()`](https://pefrens.github.io/rcamelspe/reference/read_timeseries.md),
-[`read_attributes()`](https://pefrens.github.io/rcamelspe/reference/read_attributes.md),
-[`read_metadata()`](https://pefrens.github.io/rcamelspe/reference/read_metadata.md),
-[`read_dictionary()`](https://pefrens.github.io/rcamelspe/reference/read_dictionary.md),
-[`read_geospatial()`](https://pefrens.github.io/rcamelspe/reference/read_geospatial.md),
-[`set_camels_path()`](https://pefrens.github.io/rcamelspe/reference/set_camels_pe_path.md),
-[`get_camels_path()`](https://pefrens.github.io/rcamelspe/reference/get_camels_pe_path.md)).
+([`read_timeseries()`](https://paulesantos.github.io/rcamelspe/reference/read_timeseries.md),
+[`read_attributes()`](https://paulesantos.github.io/rcamelspe/reference/read_attributes.md),
+[`read_metadata()`](https://paulesantos.github.io/rcamelspe/reference/read_metadata.md),
+[`read_dictionary()`](https://paulesantos.github.io/rcamelspe/reference/read_dictionary.md),
+[`read_geospatial()`](https://paulesantos.github.io/rcamelspe/reference/read_geospatial.md),
+[`set_camels_path()`](https://paulesantos.github.io/rcamelspe/reference/set_camels_pe_path.md),
+[`get_camels_path()`](https://paulesantos.github.io/rcamelspe/reference/get_camels_pe_path.md)).
 
 ------------------------------------------------------------------------
 
@@ -210,7 +210,7 @@ Spatial layers are GeoPackages in WGS84 (EPSG:4326), linked by
 Attribute sources are FABDEM v1.2 (topography), MapBiomas Peru and
 Ecuador (land cover), GLiM v1.0 and GLHYMPS v2.0 (geology), DSOLMap
 (soil orders), and ANA (human intervention). Consult
-[`read_dictionary()`](https://pefrens.github.io/rcamelspe/reference/read_dictionary.md)
+[`read_dictionary()`](https://paulesantos.github.io/rcamelspe/reference/read_dictionary.md)
 for file-level definitions.
 
 ### Batch access
