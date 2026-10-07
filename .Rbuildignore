@@ -12,4 +12,9 @@
 ^data-raw$
 ^compare_repo$
 ^\.agent$
+^\.agents$
 ^tmp$
+^rcamelspe$
+^\.Rhistory$
+^rcamelspe_.*\.tar\.gz$
+^rcamelspe\.Rcheck$
