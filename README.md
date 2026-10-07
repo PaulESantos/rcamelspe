@@ -245,3 +245,4 @@ When using CAMELS-PE, cite both:
   Meteorology for Large-sample Studies in Peru (Version 1.0.1) \[Data
   set\]. Zenodo.
   [doi:10.5281/zenodo.21195425](https://doi.org/10.5281/zenodo.21195425).
+"# rcamelspe" 
